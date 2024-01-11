@@ -11,12 +11,12 @@
     background-color: #000000;
     }
     .fadeIn{
-    -webkit-animation: fadeInFromNone 5s ease-out;
-    -moz-animation: fadeInFromNone 5s ease-out;
-    -o-animation: fadeInFromNone 5s ease-out;
-    animation: fadeInFromNone 5s ease-out; 
+    -webkit-animation: fadeIn 5s ease-out 10s;
+    -moz-animation: fadeIn 5s ease-out 10s;
+    -o-animation: fadeIn 5s ease-out 10s;
+    animation: fadeIn 5s ease-out 10s; 
 }
-@-webkit-keyframes fadeInFromNone {
+@-webkit-keyframes fadeIn {
     0% {display: none;opacity: 0;}
     250% {display: flex;opacity: .25;}
     50% {display: flex;opacity: .5;}
@@ -26,6 +26,7 @@
   </style>
 </head>
 <body>
+    Animation is Fun!
   <div class="fadeIn">fade In</div>
 </body>
 </html>
